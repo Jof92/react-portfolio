@@ -1,0 +1,169 @@
+/* Estilos gerais */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10%;
+    background: #051129;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    display: flex;
+    align-items: center;
+}
+
+/* Remover imagem */
+.logo img {
+    display: none;
+}
+
+/* Novas classes para estilizar o texto jose.frota */
+.white-text {
+    color: #fff;
+}
+
+.blue-dot {
+    color: #0ef;
+}
+
+.logo span {
+    font-size: 1em;
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.navbar a:hover {
+    color: #0ef;
+}
+
+.language-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    list-style-type: none;
+}
+
+.language-list img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 15px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.language-list img:hover {
+    box-shadow: 0 0 10px 5px #0ef;
+    transform: scale(1.05);
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+    position: relative;
+}
+
+.hamburger .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+    .navbar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #051129;
+        text-align: center;
+    }
+
+    .navbar.open {
+        display: flex;
+    }
+
+    .header {
+        padding: 20px 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .language-list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .language-list img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .header-right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+    }
+
+    .hamburger {
+        display: flex;
+        margin-left: 10px;
+    }
+}
+
+/* Animações */
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

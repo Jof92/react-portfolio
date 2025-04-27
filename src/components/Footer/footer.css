@@ -1,0 +1,36 @@
+.last-text{
+    width: 100%;
+    text-align: center;
+    background: #051129;
+    font-weight: 300;
+    margin-top: 50px;
+    
+
+
+}
+
+.top{
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+}
+
+.top i{
+    color: #000;
+    background:#0ef;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}   
+
+.footer-logo {
+    height: 15px;
+    vertical-align: middle;
+    margin-left: 5px;
+    }
+  

@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  color: #ededed;
+  background:  rgb(2, 2, 72);;
+  overflow-x: hidden ;
+}
+
+section, div, .swiper, .swiper-wrapper {
+  max-width: 100%;
+}
+

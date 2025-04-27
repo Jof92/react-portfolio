@@ -1,0 +1,113 @@
+#services {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+  }
+  
+  .sub-title {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 10px;
+  }
+  
+  .sub-title span {
+    color: #0ef;
+  }
+  
+  .container {
+    padding: 90px;
+  }
+  
+  .services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-gap: 80px;
+    margin-top: 50px;
+  }
+  
+  .services-list div {
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;
+  }
+  
+  /* Ícone padrão */
+  .icon-hover {
+    color: #00eeff;
+    font-size: 50px;
+    transition: color 0.3s ease;
+  }
+  
+  /* Quando o mouse estiver sobre o card, o ícone dentro dele fica amarelo */
+  .services-list div:hover .icon-hover {
+    color: yellow;
+  }
+  
+  .services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .services-list div p {
+    font-size: 20px;
+  }
+  
+  .read {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 3px #0ef, 0 0 15px #0ef;
+  }
+  
+  .read:hover {
+    background: #0ef;
+    color: #fff;
+    box-shadow: 0 0 15px #0ef;
+  }
+  
+  .services-list div:hover {
+    transform: translateY(-10px);
+  }
+  
+  @media (max-width: 1184px) {
+    .services-list {
+      grid-template-columns: 1fr;
+      grid-gap: 30px;
+    }
+  
+    .container {
+      padding: 40px;
+    }
+  
+    .sub-title {
+      font-size: 40px;
+    }
+  
+    .services-list div {
+      padding: 30px;
+    
+  }}
+  
+    
+    
+  
