@@ -1,18 +1,18 @@
 import { useState } from 'react';
-import { useLanguage } from '../../context/LanguageContext'; // Importando o hook useLanguage
+import { useLanguage } from '../../context/LanguageContext';
 import '../Header/header.css';
-import brasil from '../../assets/flags/brasil.png'; // Imagem da bandeira do Brasil
-import eua from '../../assets/flags/estados-unidos.png'; // Imagem da bandeira dos EUA
+import brasil from '../../assets/flags/brasil.png';
+import eua from '../../assets/flags/estados-unidos.png';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const { language, changeLanguage } = useLanguage(); // Usando o hook para acessar o idioma atual e a função para alterá-lo
+  const { language, changeLanguage } = useLanguage();
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
-  // Tradução dos itens do navbar
+
   const navbarContent = {
     pt: {
       home: 'Início',

@@ -264,9 +264,9 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 10px 0; /* espaçamento superior e inferior */
+    padding: 10px 0; 
     width: 100%;
-    min-height: 110vh; /* ocupa pelo menos toda a altura da tela */
+    min-height: 110vh; 
 }
 
 @media (max-width: 1184px) {

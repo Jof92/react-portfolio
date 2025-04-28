@@ -4,7 +4,7 @@ import { useLanguage } from '../../context/LanguageContext';
 import "../Service/service.css";
 
 function Services() {
-  const { language } = useLanguage(); // idioma atual
+  const { language } = useLanguage(); 
 
   const content = {
     en: {

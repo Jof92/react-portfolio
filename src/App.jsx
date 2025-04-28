@@ -8,12 +8,12 @@ import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import { LanguageProvider } from './context/LanguageContext'; // Importando o LanguageProvider
-import ReactGA from 'react-ga4'; // Importando o react-ga4
+import { LanguageProvider } from './context/LanguageContext';
+import ReactGA from 'react-ga4';
 
 function App() {
   useEffect(() => {
-    ReactGA.initialize('G-PEJR0X4GB6'); // <-- Coloque seu ID do Google Analytics aqui
+    ReactGA.initialize('G-PEJR0X4GB6');
     ReactGA.send({ hitType: "pageview", page: window.location.pathname });
   }, []);
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLanguage } from '../../context/LanguageContext'; // Acesse o contexto de idioma
+import { useLanguage } from '../../context/LanguageContext'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "../Skills/skills.css";
 import {
@@ -12,12 +12,12 @@ import {
 
 import {
   faServer,
-} from '@fortawesome/free-solid-svg-icons'; // para API REST e Next.js
+} from '@fortawesome/free-solid-svg-icons'; 
 
 const Skills = () => {
-  const { language } = useLanguage(); // Acessando o idioma atual
+  const { language } = useLanguage(); 
 
-  // Definindo as traduções para os textos
+
   const content = {
     pt: {
       mySkills: (

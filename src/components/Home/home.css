@@ -1,7 +1,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 
 
-/* ========== ESTRUTURA PRINCIPAL ========== */
+
 .home {
     position: relative;
     width: 100%;
@@ -32,13 +32,13 @@
   
   .wave-hand {
     display: inline-block;
-    transform-origin: bottom center; /* ponto de origem da rotação */
+    transform-origin: bottom center;
     animation: wave 2s infinite;
   }
   
 
 
-/* ========== CONTEÚDO DE TEXTO ========== */
+
 .home-content h3 {
     font-size: 32px;
     font-weight: 700;
@@ -73,7 +73,6 @@
     animation-delay: 1s;
 }
 
-/* ========== REDES SOCIAIS ========== */
 .home-sci a {
     display: inline-flex;
     justify-content: center;
@@ -99,11 +98,10 @@
     box-shadow: 0 0 15px #0ef;
 }
 
-/* ========== BOTÃO ========== */
 .btn-box {
     display: inline-block;
     padding: 12px 30px;
-    background-color: #0ef; /* Azul moderno */
+    background-color: #0ef;
     border-radius: 50px;
     font-size: 16px;
     color: white;
@@ -111,22 +109,22 @@
     font-weight: 600;
     text-decoration: none;
     letter-spacing: 1px;
-    border: 2px solid transparent; /* Borda invisível inicialmente */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    transition: all 0.3s ease-in-out; /* Animação suave */
+    border: 2px solid transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
 }
 
 .btn-box:hover {
-    background-color: #0056b3; /* Azul mais escuro no hover */
-    border-color: #007BFF; /* Borda azul no hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra mais forte */
-    transform: translateY(-3px); /* Leve elevação no hover */
+    background-color: #0056b3;
+    border-color: #007BFF;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    transform: translateY(-3px);
 }
 
 .btn-box:active {
-    background-color: #0069d9; /* Azul ainda mais escuro no clique */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Menos sombra no clique */
-    transform: translateY(1px); /* Efeito de pressionado */
+    background-color: #0069d9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(1px);
 }
 
 
@@ -235,7 +233,7 @@
     }
 
     .body1 {
-        display: none; /* Esconde os anéis e imagem */
+        display: none;
     }
 
     .home-content h1 {

@@ -36,14 +36,13 @@
     box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;
   }
   
-  /* Ícone padrão */
   .icon-hover {
     color: #00eeff;
     font-size: 50px;
     transition: color 0.3s ease;
   }
   
-  /* Quando o mouse estiver sobre o card, o ícone dentro dele fica amarelo */
+  
   .services-list div:hover .icon-hover {
     color: yellow;
   }

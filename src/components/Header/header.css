@@ -1,4 +1,4 @@
-/* Estilos gerais */
+
 .header {
     position: fixed;
     top: 0;
@@ -24,12 +24,12 @@
     align-items: center;
 }
 
-/* Remover imagem */
+
 .logo img {
     display: none;
 }
 
-/* Novas classes para estilizar o texto jose.frota */
+
 .white-text {
     color: #fff;
 }
