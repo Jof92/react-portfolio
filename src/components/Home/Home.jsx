@@ -65,11 +65,12 @@ const Home = () => {
                     {content[language].extra}
                 </p>
                 <div className="home-sci">
-                    <a href="#" style={{ '--i': 7 }}><i className="fab fa-instagram"></i></a>
-                    <a href="#" style={{ '--i': 8 }}><i className="fab fa-whatsapp"></i></a>
-                    <a href="#" style={{ '--i': 9 }}><i className="fab fa-linkedin"></i></a>
-                    <a href="#" style={{ '--i': 10 }}><i className="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/js.frota/" style={{ '--i': 7 }}><i className="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/+5585996204919" style={{ '--i': 8 }}><i className="fab fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/jof-frota/" style={{ '--i': 9 }}><i className="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Jof92" style={{ '--i': 10 }}><i className="fab fa-github"></i></a>
                 </div>
+
                 <a href="#about" className="btn-box">{content[language].moreAboutMe}</a>
             </div>
 
